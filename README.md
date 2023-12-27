@@ -11,9 +11,17 @@
 - Minio server (or AWS S3 compatible storage) access
 
 ### Steps
-1. Install Minio Python client:
+1. Clone the repo:
    ```
-   pip install minio
+   git clone https://github.com/Venkateshvenki404224/minio.git
+   ```
+2. Move to that repo
+   ```
+   cd minio
+   ```
+3. Install all the required packages
+   ```
+   pip install -r requirements.txt
    ```
 
 ## Usage
